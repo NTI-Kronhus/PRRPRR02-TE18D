@@ -5,6 +5,7 @@ namespace SOLID_Labb.models
 {
     internal class Dog : Animal
     {
+        private readonly IPresenting _presenter;
         private string _owner = string.Empty;
 
         public Dog(string color, IPresenting presenter): base(color, 
@@ -12,12 +13,12 @@ namespace SOLID_Labb.models
                 {EatNoise = "Dog is barking!", 
                     SleepNoise = "Dog is sleeping!"}, presenter)
         {
-            
+            _presenter = presenter;
         }
 
         public override void Speak()
         {
-            Console.WriteLine("Dog is eating. " + _owner +" is happy!");
+            _presenter.DisplayOnLine("Dog is eating. " + _owner +" is happy!");
         }
 
         public void TransferOwnership(string owner)

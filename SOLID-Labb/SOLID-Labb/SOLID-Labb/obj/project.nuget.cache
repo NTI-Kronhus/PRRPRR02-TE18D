@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "R6aSeZpfPu73RJfu2A2XGAuJnlt8fdp1YkEsSjKo926HerLuJNi/68iX89zkDMMbHoK/eRsZxKr7sAyldVibOw==",
+  "dgSpecHash": "GwD8LYSlxJdcENfdQ+6atSxuGAYtnowBfI8jPtjh3sHx2tPsp5voNk9lJbWjGaqbhSihoY3/ZzpYzdeRLgoJrA==",
   "success": true,
   "projectFilePath": "/home/hackerbuddy/repos/PRRPRR02-TE18D/SOLID-Labb/SOLID-Labb/SOLID-Labb/SOLID-Labb.csproj",
   "expectedPackageFiles": [
     "/home/hackerbuddy/.nuget/packages/autofac/6.1.0/autofac.6.1.0.nupkg.sha512",
     "/home/hackerbuddy/.nuget/packages/system.diagnostics.diagnosticsource/4.7.1/system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
-    "/home/hackerbuddy/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "/home/hackerbuddy/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.10/microsoft.netcore.app.host.linux-x64.3.1.10.nupkg.sha512"
+    "/home/hackerbuddy/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

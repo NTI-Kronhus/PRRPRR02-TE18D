@@ -14,7 +14,6 @@ namespace SOLID_Labb
             var display = container.Resolve<IPresenting>();
             
             
-            
             Animal[] animals = {new Dog("Black", display),
                                 new Hedgehog("Pink", display),
                                 new Bird("Yellow", display)};

@@ -1,0 +1,16 @@
+/home/hackerbuddy/repos/PRRPRR02-TE18D/SOLID-Labb/SOLID-Labb/SOLID-Labb/bin/Debug/netcoreapp3.1/SOLID-Labb
+/home/hackerbuddy/repos/PRRPRR02-TE18D/SOLID-Labb/SOLID-Labb/SOLID-Labb/bin/Debug/netcoreapp3.1/SOLID-Labb.deps.json
+/home/hackerbuddy/repos/PRRPRR02-TE18D/SOLID-Labb/SOLID-Labb/SOLID-Labb/bin/Debug/netcoreapp3.1/SOLID-Labb.runtimeconfig.json
+/home/hackerbuddy/repos/PRRPRR02-TE18D/SOLID-Labb/SOLID-Labb/SOLID-Labb/bin/Debug/netcoreapp3.1/SOLID-Labb.runtimeconfig.dev.json
+/home/hackerbuddy/repos/PRRPRR02-TE18D/SOLID-Labb/SOLID-Labb/SOLID-Labb/bin/Debug/netcoreapp3.1/SOLID-Labb.dll
+/home/hackerbuddy/repos/PRRPRR02-TE18D/SOLID-Labb/SOLID-Labb/SOLID-Labb/bin/Debug/netcoreapp3.1/SOLID-Labb.pdb
+/home/hackerbuddy/repos/PRRPRR02-TE18D/SOLID-Labb/SOLID-Labb/SOLID-Labb/obj/Debug/netcoreapp3.1/SOLID-Labb.csprojAssemblyReference.cache
+/home/hackerbuddy/repos/PRRPRR02-TE18D/SOLID-Labb/SOLID-Labb/SOLID-Labb/obj/Debug/netcoreapp3.1/SOLID-Labb.AssemblyInfoInputs.cache
+/home/hackerbuddy/repos/PRRPRR02-TE18D/SOLID-Labb/SOLID-Labb/SOLID-Labb/obj/Debug/netcoreapp3.1/SOLID-Labb.AssemblyInfo.cs
+/home/hackerbuddy/repos/PRRPRR02-TE18D/SOLID-Labb/SOLID-Labb/SOLID-Labb/obj/Debug/netcoreapp3.1/SOLID-Labb.csproj.CoreCompileInputs.cache
+/home/hackerbuddy/repos/PRRPRR02-TE18D/SOLID-Labb/SOLID-Labb/SOLID-Labb/obj/Debug/netcoreapp3.1/SOLID-Labb.dll
+/home/hackerbuddy/repos/PRRPRR02-TE18D/SOLID-Labb/SOLID-Labb/SOLID-Labb/obj/Debug/netcoreapp3.1/SOLID-Labb.pdb
+/home/hackerbuddy/repos/PRRPRR02-TE18D/SOLID-Labb/SOLID-Labb/SOLID-Labb/obj/Debug/netcoreapp3.1/SOLID-Labb.genruntimeconfig.cache
+/home/hackerbuddy/repos/PRRPRR02-TE18D/SOLID-Labb/SOLID-Labb/SOLID-Labb/bin/Debug/netcoreapp3.1/Autofac.dll
+/home/hackerbuddy/repos/PRRPRR02-TE18D/SOLID-Labb/SOLID-Labb/SOLID-Labb/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+/home/hackerbuddy/repos/PRRPRR02-TE18D/SOLID-Labb/SOLID-Labb/SOLID-Labb/obj/Debug/netcoreapp3.1/SOLID-Labb.csproj.CopyComplete

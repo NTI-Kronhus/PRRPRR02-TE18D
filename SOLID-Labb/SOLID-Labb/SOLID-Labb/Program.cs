@@ -1,35 +1,50 @@
 ﻿using System;
+using Autofac;
+using SOLID_Labb.interfaces;
+using SOLID_Labb.models;
+using SOLID_Labb.services;
 
 namespace SOLID_Labb
 {
-    class Program
+    static class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Animal[] animals = {new Dog("Black"),
-                            new Hedgehog("Pink"),
-                            new Bird("Yellow")};
+            var container = BuildContainer();
+            var display = container.Resolve<IPresenting>();
+            
+            
+            
+            Animal[] animals = {new Dog("Black", display),
+                                new Hedgehog("Pink", display),
+                                new Bird("Yellow", display)};
 
-            Console.WriteLine("###############");
-            Console.WriteLine();
+            display.DisplayOnLine("############### \n");
 
             foreach (var animal in animals)
             {
                 if (animal is Dog dog)
-                {
                     dog.TransferOwnership("Niklas");
-                }
+                
 
                 animal.Eat();
                 animal.Sleep();
                 animal.Speak();
-                animal._color = "Grey";
-                Console.WriteLine(animal.GetType().Name + " is " + animal._color);
-                Console.WriteLine();
+                animal.Color = "Grey";
+                display.DisplayOnLine($"{animal.GetType().Name} is {animal.Color} \n");
 
-                Console.WriteLine("###############");
-                Console.WriteLine();
+                display.DisplayOnLine("############### \n");
             }
+        }
+
+
+        private static IContainer BuildContainer()
+        {
+            var builder = new ContainerBuilder();
+
+            builder.RegisterType<ConsolePresenter>().As<IPresenting>().InstancePerLifetimeScope();
+
+            return builder.Build();
         }
     }
 }

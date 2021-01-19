@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nikla\\source\\repos\\PRRPRR02-TE18D\\SOLID-Labb\\SOLID-Labb\\SOLID-Labb\\SOLID-Labb.csproj": {}
+    "/home/hackerbuddy/repos/PRRPRR02-TE18D/SOLID-Labb/SOLID-Labb/SOLID-Labb/SOLID-Labb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nikla\\source\\repos\\PRRPRR02-TE18D\\SOLID-Labb\\SOLID-Labb\\SOLID-Labb\\SOLID-Labb.csproj": {
+    "/home/hackerbuddy/repos/PRRPRR02-TE18D/SOLID-Labb/SOLID-Labb/SOLID-Labb/SOLID-Labb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nikla\\source\\repos\\PRRPRR02-TE18D\\SOLID-Labb\\SOLID-Labb\\SOLID-Labb\\SOLID-Labb.csproj",
+        "projectUniqueName": "/home/hackerbuddy/repos/PRRPRR02-TE18D/SOLID-Labb/SOLID-Labb/SOLID-Labb/SOLID-Labb.csproj",
         "projectName": "SOLID-Labb",
-        "projectPath": "C:\\Users\\nikla\\source\\repos\\PRRPRR02-TE18D\\SOLID-Labb\\SOLID-Labb\\SOLID-Labb\\SOLID-Labb.csproj",
-        "packagesPath": "C:\\Users\\nikla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nikla\\source\\repos\\PRRPRR02-TE18D\\SOLID-Labb\\SOLID-Labb\\SOLID-Labb\\obj\\",
+        "projectPath": "/home/hackerbuddy/repos/PRRPRR02-TE18D/SOLID-Labb/SOLID-Labb/SOLID-Labb/SOLID-Labb.csproj",
+        "packagesPath": "/home/hackerbuddy/.nuget/packages/",
+        "outputPath": "/home/hackerbuddy/repos/PRRPRR02-TE18D/SOLID-Labb/SOLID-Labb/SOLID-Labb/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nikla\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/hackerbuddy/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +37,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -49,12 +53,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }

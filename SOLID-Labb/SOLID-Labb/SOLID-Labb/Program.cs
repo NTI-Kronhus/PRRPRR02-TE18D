@@ -9,7 +9,7 @@ namespace SOLID_Labb
 {
     internal static class Program
     {
-        private static void Main(string[] args)
+        public static void Main(string[] args)
         {
             var container = BuildContainer();
             var app = container.Resolve<Application>();

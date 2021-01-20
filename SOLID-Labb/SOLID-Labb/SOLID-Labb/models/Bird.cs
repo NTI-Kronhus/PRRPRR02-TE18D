@@ -2,7 +2,7 @@
 
 namespace SOLID_Labb.models
 {
-    internal class Bird : Animal
+    public class Bird : Animal
     {
         public Bird(string color, IPresenting presenter): 
             base(color, 

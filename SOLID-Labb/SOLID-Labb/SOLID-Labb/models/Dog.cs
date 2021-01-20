@@ -3,7 +3,7 @@ using SOLID_Labb.interfaces;
 
 namespace SOLID_Labb.models
 {
-    internal class Dog : Animal
+    public class Dog : Animal
     {
         private readonly IPresenting _presenter;
         private string _owner = string.Empty;

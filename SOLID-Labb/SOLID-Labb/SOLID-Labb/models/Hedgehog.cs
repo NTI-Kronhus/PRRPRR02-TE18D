@@ -2,7 +2,7 @@
 
 namespace SOLID_Labb.models
 {
-    internal class Hedgehog : Animal
+    public class Hedgehog : Animal
     {
         public Hedgehog(string color, IPresenting presenter): base(color, 
             new Behavior

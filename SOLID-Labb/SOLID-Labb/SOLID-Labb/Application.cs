@@ -9,29 +9,23 @@ namespace SOLID_Labb
     {
         private readonly IAnimalIterator _animalIterator;
         private readonly IAnimalFactory _animalFactory;
-
+        private ApplicationDefaults _defaults;
         public Application(IAnimalIterator animalIterator, IAnimalFactory animalFactory)
         {
             _animalIterator = animalIterator;
             _animalFactory = animalFactory;
         }
 
-        public void Run()
+        public void Run(ApplicationDefaults applicationDefaults = null)
         {
-            var animals = CreateAnimals();
+            _defaults = applicationDefaults ?? new ApplicationDefaults(_animalFactory);
+            
+            var animals = _defaults.Animals;
             _animalIterator.Iterate(animals);
         }
         
         
-        private IEnumerable<Animal> CreateAnimals()
-        {
-            IList<Animal> animals = new List<Animal>();
 
-            animals.Add(_animalFactory.CreateAnimal<Dog>("Black"));
-            animals.Add(_animalFactory.CreateAnimal<Hedgehog>("Pink"));
-            animals.Add(_animalFactory.CreateAnimal<Bird>("Yellow"));
-            return animals;
-        }
         
     }
 }

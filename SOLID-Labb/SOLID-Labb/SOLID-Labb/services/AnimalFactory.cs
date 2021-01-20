@@ -1,3 +1,4 @@
+using System;
 using System.Runtime.CompilerServices;
 using SOLID_Labb.interfaces;
 using SOLID_Labb.models;
@@ -16,14 +17,7 @@ namespace SOLID_Labb.services
 
         public Animal CreateAnimal<T>(string color) where T : Animal
         {
-            var type = typeof(T);
-            return type switch
-            {
-                _ when type == typeof(Bird) => new Bird(color, _display),
-                _ when type == typeof(Dog) => new Dog(color, _display),
-                _ when type == typeof(Hedgehog) => new Hedgehog(color, _display),
-                _ => null
-            };
+            return (T) Activator.CreateInstance(typeof(T), new object[] {new string(color), _display});
         }
     }
 }

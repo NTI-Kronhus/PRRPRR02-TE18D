@@ -18,13 +18,12 @@ namespace SolidLabbShould
             var bird = instance.CreateAnimal<Bird>("orange");
             var dog = instance.CreateAnimal<Dog>("orange");
             var hedgehog = instance.CreateAnimal<Hedgehog>("orange");
-            var error = instance.CreateAnimal<Animal>("orange");
-            
+
             Assert.True(bird is Bird);
             Assert.True(dog is Dog);
             Assert.True(hedgehog is Hedgehog);
             
-            Assert.Null(error);
+            
         } 
     }
 }

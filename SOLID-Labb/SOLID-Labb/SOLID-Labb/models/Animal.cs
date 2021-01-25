@@ -21,17 +21,33 @@ namespace SOLID_Labb.models
 
         public virtual void Speak()
         {
-            _presenter.DisplayOnLine(_behavior.SpeakNoise);
+            Speak(null);
+        }
+        internal virtual void Speak(string noise)
+        {
+            noise ??= _behavior.SpeakNoise;
+            _presenter.DisplayOnLine(noise);
         }
 
         public virtual void Sleep()
         {
-            _presenter.DisplayOnLine(_behavior.SleepNoise);
+            Sleep(null);
+        }
+        
+        internal virtual void Sleep(string noise)
+        {
+            noise ??= _behavior.SleepNoise;
+            _presenter.DisplayOnLine(noise);
         }
 
         public virtual void Eat()
         {
-            _presenter.DisplayOnLine(_behavior.EatNoise);
+            Eat(null);
+        } 
+        internal virtual void Eat(string noise)
+        {
+            noise ??= _behavior.EatNoise;
+            _presenter.DisplayOnLine(noise);
         }
     }
 }

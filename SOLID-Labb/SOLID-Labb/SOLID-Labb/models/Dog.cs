@@ -16,9 +16,9 @@ namespace SOLID_Labb.models
             _presenter = presenter;
         }
 
-        public override void Speak()
+        internal override void Speak(string noise)
         {
-            _presenter.DisplayOnLine("Dog is eating. " + _owner +" is happy!");
+            base.Speak("Dog is eating. " + _owner +" is happy!");
         }
 
         public void TransferOwnership(string owner)
